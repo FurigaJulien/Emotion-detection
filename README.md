@@ -19,7 +19,9 @@ and different hyperparameter to get the best result that i can. I obtained a max
 
 To detect emotion with the camera, I used cv2 videocapture. On every frame, i extract the region were the face is, and predict the class with my model. 
 Haarcascade classifier from cv2 was used to detect the faces in each frame. With the bounding box coordonates, i was able to extract the region of interest and do my prediction. 
-![detection](Ressources/detection.png)
+
+
+![](Ressources/detection.png)
 
 ## Conclusion
 
